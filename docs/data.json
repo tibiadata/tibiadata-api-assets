@@ -9911,6 +9911,11 @@
       "endpoint": "lesserfrontsweep"
     },
     {
+      "name": "Lesser Mystic Repulse",
+      "formula": "exori infir amp pug",
+      "endpoint": "lessermysticrepulse"
+    },
+    {
       "name": "Levitate",
       "formula": "exani hur \"up|down\"",
       "endpoint": "levitate"
