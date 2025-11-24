@@ -6616,6 +6616,11 @@
       "name": "Cream Blob"
     },
     {
+      "endpoint": "creepycrawler",
+      "plural_name": "Creepy Crawlers",
+      "name": "Creepy Crawler"
+    },
+    {
       "endpoint": "crocodile",
       "plural_name": "Crocodiles",
       "name": "Crocodile"
@@ -6631,9 +6636,24 @@
       "name": "Crustacea Gigantica"
     },
     {
+      "endpoint": "cryptconstruct",
+      "plural_name": "Crypt Constructs",
+      "name": "Crypt Construct"
+    },
+    {
       "endpoint": "cryptdefiler",
       "plural_name": "Crypt Defilers",
       "name": "Crypt Defiler"
+    },
+    {
+      "endpoint": "cryptfiend",
+      "plural_name": "Crypt Fiends",
+      "name": "Crypt Fiend"
+    },
+    {
+      "endpoint": "cryptmage",
+      "plural_name": "Crypt Mages",
+      "name": "Crypt Mage"
     },
     {
       "endpoint": "cryptshambler",
@@ -6709,6 +6729,11 @@
       "endpoint": "cyclopssmith",
       "plural_name": "Cyclopes Smith",
       "name": "Cyclops Smith"
+    },
+    {
+      "endpoint": "cyclursus",
+      "plural_name": "Cyclursuses",
+      "name": "Cyclursus"
     },
     {
       "endpoint": "darkapprentice",
@@ -7436,6 +7461,11 @@
       "name": "Harpy"
     },
     {
+      "endpoint": "hauntedhunter",
+      "plural_name": "Haunted Hunters",
+      "name": "Haunted Hunter"
+    },
+    {
       "endpoint": "hauntedtreeling",
       "plural_name": "Haunted Treelings",
       "name": "Haunted Treeling"
@@ -7564,6 +7594,11 @@
       "endpoint": "iksyapunac",
       "plural_name": "Iks Yapunacs",
       "name": "Iks Yapunac"
+    },
+    {
+      "endpoint": "imperial",
+      "plural_name": "Imperials",
+      "name": "Imperial"
     },
     {
       "endpoint": "infernaldemon",
@@ -8086,6 +8121,11 @@
       "name": "Nibblemaw"
     },
     {
+      "endpoint": "nightharpy",
+      "plural_name": "Night Harpies",
+      "name": "Night Harpy"
+    },
+    {
       "endpoint": "nightfiend",
       "plural_name": "Nightfiends",
       "name": "Nightfiend"
@@ -8506,6 +8546,21 @@
       "name": "Rat"
     },
     {
+      "endpoint": "raubritterchastener",
+      "plural_name": "Raubritter Chasteners",
+      "name": "Raubritter Chastener"
+    },
+    {
+      "endpoint": "raubrittermarksman",
+      "plural_name": "Raubritter Marksmen",
+      "name": "Raubritter Marksman"
+    },
+    {
+      "endpoint": "raubritterskirmisher",
+      "plural_name": "Raubritter Skirmishers",
+      "name": "Raubritter Skirmisher"
+    },
+    {
       "endpoint": "realityreaver",
       "plural_name": "Reality Reavers",
       "name": "Reality Reaver"
@@ -8534,6 +8589,11 @@
       "endpoint": "ripperspectre",
       "plural_name": "Ripper Spectres",
       "name": "Ripper Spectre"
+    },
+    {
+      "endpoint": "roamingdread",
+      "plural_name": "Roaming Dreads",
+      "name": "Roaming Dread"
     },
     {
       "endpoint": "roaringlion",
@@ -8829,6 +8889,11 @@
       "endpoint": "stabilizingrealityreaver",
       "plural_name": "Stabilizing Reality Reavers",
       "name": "Stabilizing Reality Reaver"
+    },
+    {
+      "endpoint": "stag",
+      "plural_name": "Stags",
+      "name": "Stag"
     },
     {
       "endpoint": "stalker",
@@ -9144,6 +9209,11 @@
       "endpoint": "walker",
       "plural_name": "Walkers",
       "name": "Walker"
+    },
+    {
+      "endpoint": "walkingdread",
+      "plural_name": "Walking Dreads",
+      "name": "Walking Dread"
     },
     {
       "endpoint": "walkingpillar",
