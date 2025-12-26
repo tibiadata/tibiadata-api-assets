@@ -3097,6 +3097,414 @@
       "house_id": 17001,
       "town": "Gray Beach",
       "type": "house"
+    },
+    {
+      "name": "Hanging Gardens 1",
+      "house_id": 48009,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Marketplace 1",
+      "house_id": 48001,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Marketplace 2",
+      "house_id": 48002,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Marketplace 3",
+      "house_id": 48008,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Palace Vicinity",
+      "house_id": 48006,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Quay 1",
+      "house_id": 48003,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Quay 2",
+      "house_id": 48004,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Wave Tower",
+      "house_id": 48005,
+      "town": "Issavi",
+      "type": "house"
+    },
+    {
+      "name": "Halls of Sun and Sea",
+      "house_id": 48007,
+      "town": "Issavi",
+      "type": "guildhall"
+    },
+    {
+      "name": "Dwarven Magnate's Estate",
+      "house_id": 30107,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Forge Master's Quarters",
+      "house_id": 30405,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Hare's Den",
+      "house_id": 32016,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lost Cavern",
+      "house_id": 33001,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 1",
+      "house_id": 30501,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 10",
+      "house_id": 30513,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 2",
+      "house_id": 30507,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 3",
+      "house_id": 30511,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 4",
+      "house_id": 30502,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 5",
+      "house_id": 30504,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 6",
+      "house_id": 30510,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 7",
+      "house_id": 30512,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 8",
+      "house_id": 30523,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Lower Barracks 9",
+      "house_id": 30517,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Nobility Quarter 1",
+      "house_id": 30201,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Nobility Quarter 2",
+      "house_id": 30202,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Nobility Quarter 3",
+      "house_id": 30203,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Nobility Quarter 4",
+      "house_id": 30204,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Nobility Quarter 5",
+      "house_id": 30206,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 1",
+      "house_id": 32001,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 13 (Shop)",
+      "house_id": 32013,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 14 (Shop)",
+      "house_id": 32014,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 2",
+      "house_id": 32002,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 3",
+      "house_id": 32003,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 4",
+      "house_id": 32004,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 7",
+      "house_id": 32007,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Outlaw Camp 9",
+      "house_id": 32009,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 1",
+      "house_id": 30101,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 2",
+      "house_id": 30102,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 3",
+      "house_id": 30103,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 4",
+      "house_id": 30104,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 5",
+      "house_id": 30105,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Farms 6, Fishing Hut",
+      "house_id": 30106,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Market 1 (Shop)",
+      "house_id": 30401,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Market 2 (Shop)",
+      "house_id": 30402,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Market 3 (Shop)",
+      "house_id": 30403,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "The Market 4 (Shop)",
+      "house_id": 30404,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 1",
+      "house_id": 30601,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 2 ",
+      "house_id": 30602,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 3",
+      "house_id": 30603,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 4",
+      "house_id": 30604,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 5",
+      "house_id": 30605,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 6",
+      "house_id": 30606,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 7",
+      "house_id": 30607,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 8",
+      "house_id": 30608,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Tunnel Gardens 9",
+      "house_id": 30610,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 1",
+      "house_id": 30301,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 13",
+      "house_id": 30313,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 2",
+      "house_id": 30304,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 3",
+      "house_id": 30307,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 4",
+      "house_id": 30308,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Upper Barracks 5",
+      "house_id": 30312,
+      "town": "Kazordoon",
+      "type": "house"
+    },
+    {
+      "name": "Granite Guildhall",
+      "house_id": 30703,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Hill Hideout",
+      "house_id": 30002,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Iron Guildhall",
+      "house_id": 30702,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Marble Guildhall",
+      "house_id": 30701,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Outlaw Castle",
+      "house_id": 32015,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Riverspring",
+      "house_id": 30003,
+      "town": "Kazordoon",
+      "type": "guildhall"
+    },
+    {
+      "name": "Wolftower",
+      "house_id": 30001,
+      "town": "Kazordoon",
+      "type": "guildhall"
     }
   ],
   "creatures": [
