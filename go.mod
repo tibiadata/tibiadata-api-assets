@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/PuerkitoBio/goquery v1.11.0
 	github.com/go-resty/resty/v2 v2.17.1
-	golang.org/x/text v0.32.0
+	golang.org/x/text v0.33.0
 )
 
 require (
