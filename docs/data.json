@@ -8536,9 +8536,19 @@
       "name": "Rabbit"
     },
     {
+      "endpoint": "rabidwolf",
+      "plural_name": "Rabid Wolves",
+      "name": "Rabid Wolf"
+    },
+    {
       "endpoint": "ragingbrainsquid",
       "plural_name": "Rage Squids",
       "name": "Rage Squid"
+    },
+    {
+      "endpoint": "raggedrabidwolf",
+      "plural_name": "Ragged Rabid Wolves",
+      "name": "Ragged Rabid Wolf"
     },
     {
       "endpoint": "rat",
