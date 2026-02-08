@@ -3931,6 +3931,2142 @@
       "house_id": 65023,
       "town": "Liberty Bay",
       "type": "guildhall"
+    },
+    {
+      "name": "Cliffside",
+      "house_id": 53001,
+      "town": "Moonfall",
+      "type": "house"
+    },
+    {
+      "name": "House of the Rising Moon",
+      "house_id": 53002,
+      "town": "Moonfall",
+      "type": "guildhall"
+    },
+    {
+      "name": "Bamboo Garden 1",
+      "house_id": 46019,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Bamboo Garden 2",
+      "house_id": 46020,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Bamboo Garden 3",
+      "house_id": 46021,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Banana Bay 1",
+      "house_id": 46001,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Banana Bay 2",
+      "house_id": 46002,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Banana Bay 3",
+      "house_id": 46003,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Banana Bay 4",
+      "house_id": 46004,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Big Game Hunter's Lodge",
+      "house_id": 45009,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Coconut Quay 1",
+      "house_id": 46022,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Coconut Quay 2",
+      "house_id": 46023,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Coconut Quay 3",
+      "house_id": 46024,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Coconut Quay 4",
+      "house_id": 46025,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Crocodile Bridge 1",
+      "house_id": 46005,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Crocodile Bridge 2",
+      "house_id": 46006,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Crocodile Bridge 3",
+      "house_id": 46007,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Crocodile Bridge 4",
+      "house_id": 46008,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Crocodile Bridge 5",
+      "house_id": 46009,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Flamingo Flats 1",
+      "house_id": 46014,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Flamingo Flats 2",
+      "house_id": 46015,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Flamingo Flats 3",
+      "house_id": 46016,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Flamingo Flats 4",
+      "house_id": 46017,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Flamingo Flats 5",
+      "house_id": 46018,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 1",
+      "house_id": 45001,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 2",
+      "house_id": 45002,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 3",
+      "house_id": 45003,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 4a (Shop)",
+      "house_id": 45004,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 4b (Shop)",
+      "house_id": 45005,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 5 (Shop)",
+      "house_id": 45006,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 6",
+      "house_id": 45007,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Haggler's Hangout 7",
+      "house_id": 45008,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 1",
+      "house_id": 46030,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 2",
+      "house_id": 46031,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 3",
+      "house_id": 46032,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 4",
+      "house_id": 46033,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 5",
+      "house_id": 46034,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Jungle Edge 6",
+      "house_id": 46035,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "River Homes 1",
+      "house_id": 46026,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "River Homes 2a",
+      "house_id": 46027,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "River Homes 2b",
+      "house_id": 46028,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "River Homes 3",
+      "house_id": 46029,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Woodway 1",
+      "house_id": 46010,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Woodway 2",
+      "house_id": 46011,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Woodway 3",
+      "house_id": 46012,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Woodway 4",
+      "house_id": 46013,
+      "town": "Port Hope",
+      "type": "house"
+    },
+    {
+      "name": "Bamboo Fortress",
+      "house_id": 46041,
+      "town": "Port Hope",
+      "type": "guildhall"
+    },
+    {
+      "name": "Shark Manor",
+      "house_id": 46040,
+      "town": "Port Hope",
+      "type": "guildhall"
+    },
+    {
+      "name": "The Treehouse",
+      "house_id": 47001,
+      "town": "Port Hope",
+      "type": "guildhall"
+    },
+    {
+      "name": "Antimony Lane 1",
+      "house_id": 19014,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Antimony Lane 2",
+      "house_id": 19015,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Antimony Lane 3",
+      "house_id": 19016,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Antimony Lane 4",
+      "house_id": 19017,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Cistern Ave",
+      "house_id": 19008,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Old Heritage Estate",
+      "house_id": 19009,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Rathleton Hills Residence",
+      "house_id": 19003,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Rathleton Plaza 1",
+      "house_id": 19004,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Rathleton Plaza 2",
+      "house_id": 19005,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Rathleton Plaza 3",
+      "house_id": 19006,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Rathleton Plaza 4",
+      "house_id": 19018,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Vanward Flats A",
+      "house_id": 19012,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Vanward Flats B",
+      "house_id": 19013,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Wallside Lane 1",
+      "house_id": 19010,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Wallside Lane 2",
+      "house_id": 19011,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Wallside Residence",
+      "house_id": 19001,
+      "town": "Rathleton",
+      "type": "house"
+    },
+    {
+      "name": "Bronze Brothers Bastion",
+      "house_id": 19007,
+      "town": "Rathleton",
+      "type": "guildhall"
+    },
+    {
+      "name": "Rathleton Hills Estate",
+      "house_id": 19002,
+      "town": "Rathleton",
+      "type": "guildhall"
+    },
+    {
+      "name": "Centre 1",
+      "house_id": 49001,
+      "town": "Silvertides",
+      "type": "house"
+    },
+    {
+      "name": "Centre 2",
+      "house_id": 49002,
+      "town": "Silvertides",
+      "type": "house"
+    },
+    {
+      "name": "Arena Walk 1",
+      "house_id": 55011,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Arena Walk 2",
+      "house_id": 55012,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Arena Walk 3",
+      "house_id": 55013,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Bears Paw 1",
+      "house_id": 55101,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Bears Paw 2",
+      "house_id": 55102,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Bears Paw 3",
+      "house_id": 55103,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Bears Paw 4",
+      "house_id": 55104,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Bears Paw 5",
+      "house_id": 55105,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Corner Shop (Shop)",
+      "house_id": 55131,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Fimbul Shelf 1",
+      "house_id": 55207,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Fimbul Shelf 2",
+      "house_id": 55208,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Fimbul Shelf 3",
+      "house_id": 55209,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Fimbul Shelf 4",
+      "house_id": 55210,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Furrier Quarter 1",
+      "house_id": 55211,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Furrier Quarter 2",
+      "house_id": 55212,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Furrier Quarter 3",
+      "house_id": 55213,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Glacier Side 1",
+      "house_id": 55002,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Glacier Side 2",
+      "house_id": 55003,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Glacier Side 3",
+      "house_id": 55004,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Glacier Side 4",
+      "house_id": 55005,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Lakeside Mansion",
+      "house_id": 55015,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Mammoth House",
+      "house_id": 55014,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 1",
+      "house_id": 55116,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 10",
+      "house_id": 55125,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 2",
+      "house_id": 55117,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 3",
+      "house_id": 55118,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 4",
+      "house_id": 55119,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 5",
+      "house_id": 55120,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 6",
+      "house_id": 55121,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 7",
+      "house_id": 55122,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 8",
+      "house_id": 55123,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Pilchard Bin 9",
+      "house_id": 55124,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Raven Corner 1",
+      "house_id": 55106,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Raven Corner 2",
+      "house_id": 55107,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Raven Corner 3",
+      "house_id": 55108,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shady Rocks 1",
+      "house_id": 55126,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shady Rocks 2",
+      "house_id": 55127,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shady Rocks 3",
+      "house_id": 55128,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shady Rocks 4 (Shop)",
+      "house_id": 55129,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shady Rocks 5",
+      "house_id": 55130,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Shelf Site",
+      "house_id": 55001,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Skiffs End 1",
+      "house_id": 55109,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Skiffs End 2",
+      "house_id": 55110,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Spirit Homes 1",
+      "house_id": 55006,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Spirit Homes 2",
+      "house_id": 55007,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Spirit Homes 3",
+      "house_id": 55008,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Spirit Homes 4",
+      "house_id": 55009,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Spirit Homes 5",
+      "house_id": 55010,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Trout Plaza 1",
+      "house_id": 55111,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Trout Plaza 2",
+      "house_id": 55112,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Trout Plaza 3",
+      "house_id": 55113,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Trout Plaza 4",
+      "house_id": 55114,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Trout Plaza 5 (Shop)",
+      "house_id": 55115,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 1",
+      "house_id": 55201,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 2",
+      "house_id": 55202,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 3",
+      "house_id": 55203,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 4",
+      "house_id": 55204,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 5",
+      "house_id": 55205,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Tusk Flats 6",
+      "house_id": 55206,
+      "town": "Svargrond",
+      "type": "house"
+    },
+    {
+      "name": "Crystal Glance",
+      "house_id": 55302,
+      "town": "Svargrond",
+      "type": "guildhall"
+    },
+    {
+      "name": "Frost Manor",
+      "house_id": 55303,
+      "town": "Svargrond",
+      "type": "guildhall"
+    },
+    {
+      "name": "Mammoth Belly",
+      "house_id": 55301,
+      "town": "Svargrond",
+      "type": "guildhall"
+    },
+    {
+      "name": "Alai Flats, Flat 01",
+      "house_id": 10301,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 02",
+      "house_id": 10302,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 03",
+      "house_id": 10303,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 04",
+      "house_id": 10304,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 05",
+      "house_id": 10305,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 06",
+      "house_id": 10306,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 07",
+      "house_id": 10307,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 08",
+      "house_id": 10308,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 11",
+      "house_id": 10311,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 12",
+      "house_id": 10312,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 13",
+      "house_id": 10313,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 14",
+      "house_id": 10314,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 15",
+      "house_id": 10315,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 16",
+      "house_id": 10316,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 17",
+      "house_id": 10317,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 18",
+      "house_id": 10318,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 21",
+      "house_id": 10320,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 22",
+      "house_id": 10319,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 23",
+      "house_id": 10321,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 24",
+      "house_id": 10322,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 25",
+      "house_id": 10323,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 26",
+      "house_id": 10324,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 27",
+      "house_id": 10325,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Alai Flats, Flat 28",
+      "house_id": 10326,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 01",
+      "house_id": 10201,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 02",
+      "house_id": 10202,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 03",
+      "house_id": 10203,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 04",
+      "house_id": 10204,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 05",
+      "house_id": 10205,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 06",
+      "house_id": 10206,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 11",
+      "house_id": 10211,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 12",
+      "house_id": 10212,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 13",
+      "house_id": 10213,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 14",
+      "house_id": 10214,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 15",
+      "house_id": 10215,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Beach Home Apartments, Flat 16",
+      "house_id": 10216,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Demon Tower",
+      "house_id": 10006,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Farm Lane, 1st floor (Shop)",
+      "house_id": 10702,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Farm Lane, 2nd Floor (Shop)",
+      "house_id": 10703,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Farm Lane, Basement (Shop)",
+      "house_id": 10701,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village 1",
+      "house_id": 12003,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village 2",
+      "house_id": 12004,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village 3",
+      "house_id": 12005,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village 4",
+      "house_id": 12006,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village 5",
+      "house_id": 12007,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village, Bar (Shop)",
+      "house_id": 12009,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village, Tower Flat",
+      "house_id": 12008,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Fibula Village, Villa",
+      "house_id": 12100,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village 1",
+      "house_id": 14005,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village 2",
+      "house_id": 14006,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village 3",
+      "house_id": 14008,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village 6",
+      "house_id": 14010,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village 7",
+      "house_id": 14011,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village, Shop",
+      "house_id": 14004,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Greenshore Village, Villa",
+      "house_id": 14003,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Harbour Place 1 (Shop)",
+      "house_id": 11404,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Harbour Place 2 (Shop)",
+      "house_id": 11401,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Harbour Place 3",
+      "house_id": 11402,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Harbour Street 4",
+      "house_id": 10602,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Lower Swamp Lane 1",
+      "house_id": 10403,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Lower Swamp Lane 3",
+      "house_id": 10404,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Main Street 9, 1st floor (Shop)",
+      "house_id": 10802,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Main Street 9a, 2nd floor (Shop)",
+      "house_id": 10803,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Main Street 9b, 2nd floor (Shop)",
+      "house_id": 10804,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Mill Avenue 1 (Shop)",
+      "house_id": 10901,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Mill Avenue 2 (Shop)",
+      "house_id": 10902,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Mill Avenue 3",
+      "house_id": 10903,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Mill Avenue 4",
+      "house_id": 10904,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Mill Avenue 5",
+      "house_id": 10905,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Open-Air Theatre",
+      "house_id": 10007,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Smuggler's Den",
+      "house_id": 11024,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue 1a",
+      "house_id": 10501,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue 1b",
+      "house_id": 10502,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue 1c",
+      "house_id": 10503,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue 5 (Shop)",
+      "house_id": 10504,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue Labs 2a",
+      "house_id": 10505,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue Labs 2b",
+      "house_id": 10508,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sorcerer's Avenue Labs 2c",
+      "house_id": 10510,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 01",
+      "house_id": 10101,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 02",
+      "house_id": 10102,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 03",
+      "house_id": 10103,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 11",
+      "house_id": 10104,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 12",
+      "house_id": 10112,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 13",
+      "house_id": 10113,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 14",
+      "house_id": 10114,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 21",
+      "house_id": 10121,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 22",
+      "house_id": 10122,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 23",
+      "house_id": 10123,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Sunset Homes, Flat 24",
+      "house_id": 10124,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Thais Hostel",
+      "house_id": 10603,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 1a",
+      "house_id": 11022,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 1b",
+      "house_id": 11023,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3a",
+      "house_id": 11016,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3b",
+      "house_id": 11017,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3c",
+      "house_id": 11018,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3d",
+      "house_id": 11019,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3e",
+      "house_id": 11020,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 3f",
+      "house_id": 11021,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5a",
+      "house_id": 11001,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5b",
+      "house_id": 11002,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5c",
+      "house_id": 11003,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5d",
+      "house_id": 11004,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5e",
+      "house_id": 11005,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 5f",
+      "house_id": 11006,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7a",
+      "house_id": 11007,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7b",
+      "house_id": 11008,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7c",
+      "house_id": 11009,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7d",
+      "house_id": 11010,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7e",
+      "house_id": 11011,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7f",
+      "house_id": 11012,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7g",
+      "house_id": 11013,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 7h",
+      "house_id": 11014,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "The City Wall 9",
+      "house_id": 11015,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Upper Swamp Lane 10",
+      "house_id": 10407,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Upper Swamp Lane 12",
+      "house_id": 10408,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Upper Swamp Lane 2",
+      "house_id": 10401,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Upper Swamp Lane 4",
+      "house_id": 10402,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Upper Swamp Lane 8",
+      "house_id": 10405,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Bloodhall",
+      "house_id": 10005,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Castle of Greenshore",
+      "house_id": 14002,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Dark Mansion",
+      "house_id": 10004,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Fibula Clanhall",
+      "house_id": 12010,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Greenshore Clanhall",
+      "house_id": 14012,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Guildhall of the Red Rose",
+      "house_id": 12002,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Halls of the Adventurers",
+      "house_id": 10003,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Mercenary Tower",
+      "house_id": 12001,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Snake Tower",
+      "house_id": 10002,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Southern Thais Guildhall",
+      "house_id": 10406,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Spiritkeep",
+      "house_id": 10001,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Thais Clanhall",
+      "house_id": 10601,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "The Tibianic",
+      "house_id": 14001,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Warriors' Guildhall",
+      "house_id": 10801,
+      "town": "Thais",
+      "type": "guildhall"
+    },
+    {
+      "name": "Dagger Alley 1",
+      "house_id": 35006,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Dream Street 1 (Shop)",
+      "house_id": 35009,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Dream Street 2",
+      "house_id": 35010,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Dream Street 3",
+      "house_id": 35011,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Dream Street 4",
+      "house_id": 35012,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Elm Street 1",
+      "house_id": 35013,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Elm Street 2",
+      "house_id": 35014,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Elm Street 3",
+      "house_id": 35015,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Elm Street 4",
+      "house_id": 35016,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Iron Alley 1",
+      "house_id": 35007,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Iron Alley 2",
+      "house_id": 35008,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Iron Alley Watch, Lower",
+      "house_id": 35070,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Iron Alley Watch, Upper",
+      "house_id": 35069,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Loot Lane 1 (Shop)",
+      "house_id": 35056,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Lucky Lane 1 (Shop)",
+      "house_id": 35019,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Lucky Lane 2 (Tower)",
+      "house_id": 35067,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Lucky Lane 3 (Tower)",
+      "house_id": 35068,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 1",
+      "house_id": 35058,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 2",
+      "house_id": 35059,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 3",
+      "house_id": 35060,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 4 (Shop)",
+      "house_id": 35061,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 5 (Shop)",
+      "house_id": 35062,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 6",
+      "house_id": 35063,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Market Street 7",
+      "house_id": 35064,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Mystic Lane 1",
+      "house_id": 35050,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Mystic Lane 2",
+      "house_id": 35051,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Mystic Lane 3 (Tower)",
+      "house_id": 35066,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Old Lighthouse",
+      "house_id": 35057,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 01",
+      "house_id": 35020,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 02",
+      "house_id": 35021,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 03",
+      "house_id": 35022,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 04",
+      "house_id": 35023,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 05",
+      "house_id": 35024,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 06",
+      "house_id": 35025,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 07",
+      "house_id": 35026,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 11",
+      "house_id": 35027,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 12",
+      "house_id": 35028,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 13",
+      "house_id": 35029,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 14",
+      "house_id": 35030,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 15",
+      "house_id": 35031,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 16",
+      "house_id": 35032,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 17",
+      "house_id": 35033,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 18",
+      "house_id": 35034,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 21",
+      "house_id": 35035,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 22",
+      "house_id": 35036,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 23",
+      "house_id": 35037,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 24",
+      "house_id": 35038,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 25",
+      "house_id": 35039,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 26",
+      "house_id": 35040,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 27",
+      "house_id": 35041,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 28",
+      "house_id": 35042,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 31",
+      "house_id": 35043,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 32",
+      "house_id": 35044,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 33",
+      "house_id": 35045,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Paupers Palace, Flat 34",
+      "house_id": 35046,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Salvation Street 1 (Shop)",
+      "house_id": 35047,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Salvation Street 2",
+      "house_id": 35048,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Salvation Street 3",
+      "house_id": 35049,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Seagull Walk 1",
+      "house_id": 35017,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Seagull Walk 2",
+      "house_id": 35018,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Silver Street 1",
+      "house_id": 35052,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Silver Street 2",
+      "house_id": 35053,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Silver Street 3",
+      "house_id": 35054,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Silver Street 4",
+      "house_id": 35055,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "The Lair",
+      "house_id": 35065,
+      "town": "Venore",
+      "type": "house"
+    },
+    {
+      "name": "Blessed Shield Guildhall",
+      "house_id": 35001,
+      "town": "Venore",
+      "type": "guildhall"
+    },
+    {
+      "name": "Golden Axe Guildhall",
+      "house_id": 35004,
+      "town": "Venore",
+      "type": "guildhall"
+    },
+    {
+      "name": "Steel Home",
+      "house_id": 35002,
+      "town": "Venore",
+      "type": "guildhall"
+    },
+    {
+      "name": "Swamp Watch",
+      "house_id": 35003,
+      "town": "Venore",
+      "type": "guildhall"
+    },
+    {
+      "name": "Valorous Venore",
+      "house_id": 35005,
+      "town": "Venore",
+      "type": "guildhall"
+    },
+    {
+      "name": "Aureate Court 1",
+      "house_id": 37001,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Aureate Court 2",
+      "house_id": 37002,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Aureate Court 3",
+      "house_id": 37003,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Aureate Court 4",
+      "house_id": 37004,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Aureate Court 5",
+      "house_id": 37019,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Fortune Wing 1",
+      "house_id": 37005,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Fortune Wing 2",
+      "house_id": 37006,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Fortune Wing 3",
+      "house_id": 37007,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Fortune Wing 4",
+      "house_id": 37008,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Harbour Promenade 1",
+      "house_id": 37017,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Luminous Arc 1",
+      "house_id": 37009,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Luminous Arc 2",
+      "house_id": 37010,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Luminous Arc 3",
+      "house_id": 37011,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Luminous Arc 4",
+      "house_id": 37012,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Luminous Arc 5",
+      "house_id": 37018,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Mad Scientist's Lab",
+      "house_id": 37020,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Radiant Plaza 1",
+      "house_id": 37013,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Radiant Plaza 2",
+      "house_id": 37014,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Radiant Plaza 3",
+      "house_id": 37015,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Radiant Plaza 4",
+      "house_id": 37016,
+      "town": "Yalahar",
+      "type": "house"
+    },
+    {
+      "name": "Cascade Towers",
+      "house_id": 38002,
+      "town": "Yalahar",
+      "type": "guildhall"
+    },
+    {
+      "name": "Halls of Serenity",
+      "house_id": 38001,
+      "town": "Yalahar",
+      "type": "guildhall"
+    },
+    {
+      "name": "Sun Palace",
+      "house_id": 38003,
+      "town": "Yalahar",
+      "type": "guildhall"
     }
   ],
   "creatures": [
