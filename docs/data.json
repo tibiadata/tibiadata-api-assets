@@ -5256,6 +5256,18 @@
       "type": "house"
     },
     {
+      "name": "Targuna Cottage  1",
+      "house_id": 101,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
+      "name": "Targuna Cottage 2",
+      "house_id": 102,
+      "town": "Thais",
+      "type": "house"
+    },
+    {
       "name": "Thais Hostel",
       "house_id": 10603,
       "town": "Thais",
@@ -7619,6 +7631,26 @@
       "name": "Infernalist"
     },
     {
+      "endpoint": "infernoidblob",
+      "plural_name": "Infernoid Blobs",
+      "name": "Infernoid Blob"
+    },
+    {
+      "endpoint": "infernoidhound",
+      "plural_name": "Infernoid Hounds",
+      "name": "Infernoid Hound"
+    },
+    {
+      "endpoint": "infernoidsoul",
+      "plural_name": "Infernoid Souls",
+      "name": "Infernoid Soul"
+    },
+    {
+      "endpoint": "infernoidspiritual",
+      "plural_name": "Infernoid Spirituals",
+      "name": "Infernoid Spiritual"
+    },
+    {
       "endpoint": "inkblob",
       "plural_name": "Ink Blobs",
       "name": "Ink Blob"
@@ -7784,9 +7816,24 @@
       "name": "Lizard Chosen"
     },
     {
+      "endpoint": "lizardcommander",
+      "plural_name": "Lizard Commanders",
+      "name": "Lizard Commander"
+    },
+    {
       "endpoint": "lizarddragonpriest",
       "plural_name": "Lizard Dragon Priests",
       "name": "Lizard Dragon Priest"
+    },
+    {
+      "endpoint": "lizardexecutioner",
+      "plural_name": "Lizard Executioners",
+      "name": "Lizard Executioner"
+    },
+    {
+      "endpoint": "lizardhenchman",
+      "plural_name": "Lizard Henchmans",
+      "name": "Lizard Henchman"
     },
     {
       "endpoint": "lizardhighguard",
@@ -7799,6 +7846,11 @@
       "name": "Lizard Legionnaire"
     },
     {
+      "endpoint": "lizardmagician",
+      "plural_name": "Lizard Magicians",
+      "name": "Lizard Magician"
+    },
+    {
       "endpoint": "lizardsentinel",
       "plural_name": "Lizard Sentinels",
       "name": "Lizard Sentinel"
@@ -7807,6 +7859,11 @@
       "endpoint": "lizardsnakecharmer",
       "plural_name": "Lizard Snakecharmers",
       "name": "Lizard Snakecharmer"
+    },
+    {
+      "endpoint": "lizardswordmaster",
+      "plural_name": "Lizard Swordmasters",
+      "name": "Lizard Swordmaster"
     },
     {
       "endpoint": "lizardtemplar",
@@ -8394,6 +8451,11 @@
       "name": "Pirate Buccaneer"
     },
     {
+      "endpoint": "cook",
+      "plural_name": "Pirate Cooks",
+      "name": "Pirate Cooks"
+    },
+    {
       "endpoint": "piratecorsair",
       "plural_name": "Pirate Corsairs",
       "name": "Pirate Corsair"
@@ -8409,9 +8471,24 @@
       "name": "Pirate Ghost"
     },
     {
+      "endpoint": "gunner",
+      "plural_name": "Pirate Gunners",
+      "name": "Pirate Gunners"
+    },
+    {
       "endpoint": "piratemarauder",
       "plural_name": "Pirate Marauders",
       "name": "Pirate Marauder"
+    },
+    {
+      "endpoint": "navigator",
+      "plural_name": "Pirate Navigators",
+      "name": "Pirate Navigators"
+    },
+    {
+      "endpoint": "quartermaster",
+      "plural_name": "Pirate Quartermasters",
+      "name": "Pirate Quartermasters"
     },
     {
       "endpoint": "pirateskeleton",
@@ -8687,6 +8764,11 @@
       "endpoint": "scorpion",
       "plural_name": "Scorpions",
       "name": "Scorpion"
+    },
+    {
+      "endpoint": "seacaptain",
+      "plural_name": "Sea Captains",
+      "name": "Sea Captain"
     },
     {
       "endpoint": "seaserpent",
