@@ -83,22 +83,37 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 		return 0
 	}()
 
+	const maxRetries = 5
+
 	for _, town := range b.Towns {
 		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
 
 		ApiUrl := "https://" + TibiaDataAPIhost + "/v4/houses/" + b.Worlds[worldsIndex] + "/" + url.QueryEscape(town)
-		res, err := client.R().Get(ApiUrl)
-		if err != nil {
-			return fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
-		}
 
-		switch res.StatusCode() {
-		case http.StatusOK:
+		var lastErr error
+		var success bool
+
+		for attempt := 1; attempt <= maxRetries; attempt++ {
+			res, err := client.R().Get(ApiUrl)
+			if err != nil {
+				lastErr = fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
+				log.Printf("[warn] Attempt %d/%d failed for %s: %s", attempt, maxRetries, town, lastErr)
+				time.Sleep(time.Duration(attempt) * time.Second)
+				continue
+			}
+
+			if res.StatusCode() != http.StatusOK {
+				lastErr = fmt.Errorf("non-200 status retrieving houses for %s. StatusCode: %d", town, res.StatusCode())
+				log.Printf("[warn] Attempt %d/%d failed for %s: %s", attempt, maxRetries, town, lastErr)
+				time.Sleep(time.Duration(attempt) * time.Second)
+				continue
+			}
+
 			// Get byte slice from string.
 			bytes := []byte(res.Body())
 
 			var cont SourceHousesOverview
-			err := json.Unmarshal(bytes, &cont)
+			err = json.Unmarshal(bytes, &cont)
 			if err != nil {
 				return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
 			}
@@ -120,8 +135,13 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 					HouseType: "guildhall",
 				})
 			}
-		default:
-			log.Printf("[warn] Issue when retrieving data about houses and guildhalls in %s. StatusCode: %d", town, res.StatusCode())
+
+			success = true
+			break
+		}
+
+		if !success {
+			return fmt.Errorf("houses refresh failed for town %s after %d attempts: %s", town, maxRetries, lastErr)
 		}
 
 		if sleepFlag {
@@ -141,15 +161,24 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 	const raceEndpointIndexer = "&race="
 
 	var safe []string
+	var parseErr error
 
 	creatures := doc.Find(".BoxContent .Creatures").First()
 	creatures.Find("div").Each(func(index int, s *goquery.Selection) {
+		if parseErr != nil {
+			return
+		}
+
 		url, exists := s.Find("a").Attr("href")
 		if !exists {
 			return
 		}
 
 		raceIndex := strings.Index(url, raceEndpointIndexer)
+		if raceIndex == -1 {
+			parseErr = fmt.Errorf("unexpected HTML format from tibia.com: creature URL %q missing %q", url, raceEndpointIndexer)
+			return
+		}
 		endpoint := strings.TrimPrefix(url[raceIndex:], raceEndpointIndexer)
 		safe = append(safe, endpoint)
 		pluralName := s.Find("div").First().Text()
@@ -207,6 +236,10 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 		}
 	})
 
+	if parseErr != nil {
+		return parseErr
+	}
+
 	for i, s := range safe {
 		str := SpaceMap(b.Creatures[i].Name)
 		_, isSpecial := specialCreaturesCases[s]
@@ -225,7 +258,13 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		return fmt.Errorf("%s, func: spellsWorker", err)
 	}
 
+	var spellParseErr error
+
 	doc.Find(".Table3 table.TableContent tr").Each(func(index int, s *goquery.Selection) {
+		if spellParseErr != nil {
+			return
+		}
+
 		if index == 0 {
 			return
 		}
@@ -233,8 +272,16 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		s.Find("td").EachWithBreak(func(index int, inner *goquery.Selection) bool {
 			if index == 0 {
 				rawText := inner.Text()
-				spellName := rawText[0:strings.Index(rawText, " (")]
-				formula := rawText[strings.Index(rawText, " (")+2 : strings.Index(rawText, ")")]
+
+				parenOpen := strings.Index(rawText, " (")
+				parenClose := strings.Index(rawText, ")")
+				if parenOpen == -1 || parenClose == -1 {
+					spellParseErr = fmt.Errorf("unexpected HTML format from tibia.com: spell text %q missing expected parentheses", rawText)
+					return false
+				}
+
+				spellName := rawText[0:parenOpen]
+				formula := rawText[parenOpen+2 : parenClose]
 
 				var endpoint string
 				if specialCase, isSpecial := specialSpellsCases[spellName]; isSpecial {
@@ -255,6 +302,10 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 			return true
 		})
 	})
+
+	if spellParseErr != nil {
+		return spellParseErr
+	}
 
 	return nil
 }
