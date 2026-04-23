@@ -40,6 +40,8 @@ func main() {
 	// Set client timeout  and retry
 	client.SetTimeout(5 * time.Second)
 	client.SetRetryCount(5)
+	client.SetRetryWaitTime(1 * time.Second)
+	client.SetRetryMaxWaitTime(30 * time.Second)
 
 	// Set headers for all requests
 	client.SetHeaders(map[string]string{
