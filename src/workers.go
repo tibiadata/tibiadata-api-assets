@@ -73,6 +73,14 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 
 	})
 
+	if len(b.Worlds) == 0 {
+		return fmt.Errorf("no worlds found on tibia.com, possible HTML format change or maintenance")
+	}
+
+	if len(b.Towns) == 0 {
+		return fmt.Errorf("no towns found on tibia.com, possible HTML format change or maintenance")
+	}
+
 	// Find the index of Antica in b.Worlds[] or fallback to first index
 	worldsIndex := func() int {
 		for i, world := range b.Worlds {
@@ -83,65 +91,44 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 		return 0
 	}()
 
-	const maxRetries = 5
-
 	for _, town := range b.Towns {
 		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
 
 		ApiUrl := "https://" + TibiaDataAPIhost + "/v4/houses/" + b.Worlds[worldsIndex] + "/" + url.QueryEscape(town)
-
-		var lastErr error
-		var success bool
-
-		for attempt := 1; attempt <= maxRetries; attempt++ {
-			res, err := client.R().Get(ApiUrl)
-			if err != nil {
-				lastErr = fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
-				log.Printf("[warn] Attempt %d/%d failed for %s: %s", attempt, maxRetries, town, lastErr)
-				time.Sleep(time.Duration(attempt) * time.Second)
-				continue
-			}
-
-			if res.StatusCode() != http.StatusOK {
-				lastErr = fmt.Errorf("non-200 status retrieving houses for %s. StatusCode: %d", town, res.StatusCode())
-				log.Printf("[warn] Attempt %d/%d failed for %s: %s", attempt, maxRetries, town, lastErr)
-				time.Sleep(time.Duration(attempt) * time.Second)
-				continue
-			}
-
-			// Get byte slice from string.
-			bytes := []byte(res.Body())
-
-			var cont SourceHousesOverview
-			err = json.Unmarshal(bytes, &cont)
-			if err != nil {
-				return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
-			}
-
-			for _, value := range cont.Houses.HouseList {
-				b.Houses = append(b.Houses, AssetsHouse{
-					Name:      value.Name,
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "house",
-				})
-			}
-
-			for _, value := range cont.Houses.GuildhallList {
-				b.Houses = append(b.Houses, AssetsHouse{
-					Name:      value.Name,
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "guildhall",
-				})
-			}
-
-			success = true
-			break
+		res, err := client.R().Get(ApiUrl)
+		if err != nil {
+			return fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
 		}
 
-		if !success {
-			return fmt.Errorf("houses refresh failed for town %s after %d attempts: %s", town, maxRetries, lastErr)
+		if res.StatusCode() != http.StatusOK {
+			return fmt.Errorf("non-200 status retrieving houses for %s. StatusCode: %d", town, res.StatusCode())
+		}
+
+		// Get byte slice from string.
+		bytes := []byte(res.Body())
+
+		var cont SourceHousesOverview
+		err = json.Unmarshal(bytes, &cont)
+		if err != nil {
+			return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
+		}
+
+		for _, value := range cont.Houses.HouseList {
+			b.Houses = append(b.Houses, AssetsHouse{
+				Name:      value.Name,
+				HouseID:   value.HouseID,
+				Town:      town,
+				HouseType: "house",
+			})
+		}
+
+		for _, value := range cont.Houses.GuildhallList {
+			b.Houses = append(b.Houses, AssetsHouse{
+				Name:      value.Name,
+				HouseID:   value.HouseID,
+				Town:      town,
+				HouseType: "guildhall",
+			})
 		}
 
 		if sleepFlag {
