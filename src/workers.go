@@ -73,6 +73,14 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 
 	})
 
+	if len(b.Worlds) == 0 {
+		return fmt.Errorf("no worlds found on tibia.com, possible HTML format change or maintenance")
+	}
+
+	if len(b.Towns) == 0 {
+		return fmt.Errorf("no towns found on tibia.com, possible HTML format change or maintenance")
+	}
+
 	// Find the index of Antica in b.Worlds[] or fallback to first index
 	worldsIndex := func() int {
 		for i, world := range b.Worlds {
@@ -92,36 +100,35 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 			return fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
 		}
 
-		switch res.StatusCode() {
-		case http.StatusOK:
-			// Get byte slice from string.
-			bytes := []byte(res.Body())
+		if res.StatusCode() != http.StatusOK {
+			return fmt.Errorf("non-200 status retrieving houses for %s. StatusCode: %d", town, res.StatusCode())
+		}
 
-			var cont SourceHousesOverview
-			err := json.Unmarshal(bytes, &cont)
-			if err != nil {
-				return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
-			}
+		// Get byte slice from string.
+		bytes := []byte(res.Body())
 
-			for _, value := range cont.Houses.HouseList {
-				b.Houses = append(b.Houses, AssetsHouse{
-					Name:      value.Name,
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "house",
-				})
-			}
+		var cont SourceHousesOverview
+		err = json.Unmarshal(bytes, &cont)
+		if err != nil {
+			return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
+		}
 
-			for _, value := range cont.Houses.GuildhallList {
-				b.Houses = append(b.Houses, AssetsHouse{
-					Name:      value.Name,
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "guildhall",
-				})
-			}
-		default:
-			log.Printf("[warn] Issue when retrieving data about houses and guildhalls in %s. StatusCode: %d", town, res.StatusCode())
+		for _, value := range cont.Houses.HouseList {
+			b.Houses = append(b.Houses, AssetsHouse{
+				Name:      value.Name,
+				HouseID:   value.HouseID,
+				Town:      town,
+				HouseType: "house",
+			})
+		}
+
+		for _, value := range cont.Houses.GuildhallList {
+			b.Houses = append(b.Houses, AssetsHouse{
+				Name:      value.Name,
+				HouseID:   value.HouseID,
+				Town:      town,
+				HouseType: "guildhall",
+			})
 		}
 
 		if sleepFlag {
@@ -141,15 +148,24 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 	const raceEndpointIndexer = "&race="
 
 	var safe []string
+	var parseErr error
 
 	creatures := doc.Find(".BoxContent .Creatures").First()
 	creatures.Find("div").Each(func(index int, s *goquery.Selection) {
+		if parseErr != nil {
+			return
+		}
+
 		url, exists := s.Find("a").Attr("href")
 		if !exists {
 			return
 		}
 
 		raceIndex := strings.Index(url, raceEndpointIndexer)
+		if raceIndex == -1 {
+			parseErr = fmt.Errorf("unexpected HTML format from tibia.com: creature URL %q missing %q", url, raceEndpointIndexer)
+			return
+		}
 		endpoint := strings.TrimPrefix(url[raceIndex:], raceEndpointIndexer)
 		safe = append(safe, endpoint)
 		pluralName := s.Find("div").First().Text()
@@ -207,6 +223,10 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 		}
 	})
 
+	if parseErr != nil {
+		return parseErr
+	}
+
 	for i, s := range safe {
 		str := SpaceMap(b.Creatures[i].Name)
 		_, isSpecial := specialCreaturesCases[s]
@@ -225,7 +245,13 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		return fmt.Errorf("%s, func: spellsWorker", err)
 	}
 
+	var spellParseErr error
+
 	doc.Find(".Table3 table.TableContent tr").Each(func(index int, s *goquery.Selection) {
+		if spellParseErr != nil {
+			return
+		}
+
 		if index == 0 {
 			return
 		}
@@ -233,8 +259,16 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		s.Find("td").EachWithBreak(func(index int, inner *goquery.Selection) bool {
 			if index == 0 {
 				rawText := inner.Text()
-				spellName := rawText[0:strings.Index(rawText, " (")]
-				formula := rawText[strings.Index(rawText, " (")+2 : strings.Index(rawText, ")")]
+
+				parenOpen := strings.Index(rawText, " (")
+				parenClose := strings.Index(rawText, ")")
+				if parenOpen == -1 || parenClose == -1 {
+					spellParseErr = fmt.Errorf("unexpected HTML format from tibia.com: spell text %q missing expected parentheses", rawText)
+					return false
+				}
+
+				spellName := rawText[0:parenOpen]
+				formula := rawText[parenOpen+2 : parenClose]
 
 				var endpoint string
 				if specialCase, isSpecial := specialSpellsCases[spellName]; isSpecial {
@@ -255,6 +289,10 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 			return true
 		})
 	})
+
+	if spellParseErr != nil {
+		return spellParseErr
+	}
 
 	return nil
 }

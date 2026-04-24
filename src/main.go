@@ -39,7 +39,9 @@ func main() {
 
 	// Set client timeout  and retry
 	client.SetTimeout(5 * time.Second)
-	client.SetRetryCount(2)
+	client.SetRetryCount(5)
+	client.SetRetryWaitTime(1 * time.Second)
+	client.SetRetryMaxWaitTime(30 * time.Second)
 
 	// Set headers for all requests
 	client.SetHeaders(map[string]string{
@@ -85,7 +87,7 @@ func main() {
 
 	err = builder.spellsWorker(client)
 	if err != nil {
-		log.Fatalf("[error] Issue with fansitesWorker. Error: %s", err)
+		log.Fatalf("[error] Issue with spellsWorker. Error: %s", err)
 	}
 
 	log.Println("[info] Validation of builder lists to prevent empty set of strings.")
