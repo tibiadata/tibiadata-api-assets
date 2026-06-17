@@ -8,10 +8,12 @@ import (
 var (
 	// Special creature name cases
 	specialCreaturesCases = map[string]string{
+		"aggressivelavalurker":   "Ravenous Lava Lurkers",
 		"apparitionofadruid":     "Druid's Apparition",
 		"asura":                  "Dawnfire Asura",
 		"asuranight":             "Midnight Asura",
 		"batface":                "Gloom Maws",
+		"bloodcrabunderwater":    "Deepsea Blood Crabs",
 		"caribbeanbat":           "Exotic Bat",
 		"caribbeancavespider":    "Exotic Cave Spider",
 		"carnisylvandark":        "Dark Carnisylvan",
@@ -47,6 +49,9 @@ var (
 		"paladinsapparition":     "Paladin's Apparition",
 		"quartermaster":          "Pirate Quartermasters",
 		"ragingbrainsquid":       "Rage Squid",
+		"replicadiamondservant":  "Diamond Servant Replicas",
+		"replicagoldenservant":   "Golden Servant Replicas",
+		"replicaironservant":     "Iron Servant Replicas",
 		"skirmisher":             "Corym Skirmisher",
 		"sorcerersapparition":    "Sorcerer's Apparition",
 		"soulbrokenharbinger":    "Soul-broken Harbinger",
