@@ -9597,12 +9597,12 @@
     },
     {
       "name": "Aura of Exposed Weakness",
-      "formula": "exori kor tempo",
+      "formula": "exori moe tempo",
       "endpoint": "auraofexposedweakness"
     },
     {
       "name": "Aura of Sapped Strength",
-      "formula": "exori moe tempo",
+      "formula": "exori kor tempo",
       "endpoint": "auraofsappedstrength"
     },
     {
