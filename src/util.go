@@ -30,6 +30,7 @@ var (
 		"degeneratedshaper":      "Broken Shaper",
 		"earthelementalmassive":  "Massive Earth Elemental",
 		"energyelementalmassive": "Massive Energy Elemental",
+		"feverbloomasura":        "True Feverbloom Asuras",
 		"frogazure":              "Azure Frog",
 		"ghostlycrawler":         "Branchy Crawler",
 		"girtablilu":             "Venerable Girtablilu",
