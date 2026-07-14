@@ -6894,6 +6894,36 @@
       "name": "Destroyer"
     },
     {
+      "endpoint": "devotedradiantacolyte",
+      "plural_name": "Devoted Radiant Acolytes",
+      "name": "Devoted Radiant Acolyte"
+    },
+    {
+      "endpoint": "devotedradiantinquisitor",
+      "plural_name": "Devoted Radiant Inquisitors",
+      "name": "Devoted Radiant Inquisitor"
+    },
+    {
+      "endpoint": "devotedradiantparagon",
+      "plural_name": "Devoted Radiant Paragons",
+      "name": "Devoted Radiant Paragon"
+    },
+    {
+      "endpoint": "devotedradianttemplar",
+      "plural_name": "Devoted Radiant Templars",
+      "name": "Devoted Radiant Templar"
+    },
+    {
+      "endpoint": "devotedradiantwarden",
+      "plural_name": "Devoted Radiant Wardens",
+      "name": "Devoted Radiant Warden"
+    },
+    {
+      "endpoint": "devotedradiantzealot",
+      "plural_name": "Devoted Radiant Zealots",
+      "name": "Devoted Radiant Zealot"
+    },
+    {
       "endpoint": "devourer",
       "plural_name": "Devourers",
       "name": "Devourer"
@@ -7619,6 +7649,11 @@
       "name": "Icecold Book"
     },
     {
+      "endpoint": "iceplumestrider",
+      "plural_name": "Iceplume Striders",
+      "name": "Iceplume Strider"
+    },
+    {
       "endpoint": "iksaucar",
       "plural_name": "Iks Aucars",
       "name": "Iks Aucar"
@@ -7732,6 +7767,11 @@
       "endpoint": "islandtroll",
       "plural_name": "Island Trolls",
       "name": "Island Troll"
+    },
+    {
+      "endpoint": "jaracal",
+      "plural_name": "Jaracals",
+      "name": "Jaracal"
     },
     {
       "endpoint": "jellyfish",
@@ -8157,6 +8197,26 @@
       "endpoint": "moohtant",
       "plural_name": "Moohtants",
       "name": "Moohtant"
+    },
+    {
+      "endpoint": "moonspawnblightspitter",
+      "plural_name": "Moonspawn Blightspitters",
+      "name": "Moonspawn Blightspitter"
+    },
+    {
+      "endpoint": "moonspawnoozecrown",
+      "plural_name": "Moonspawn Oozecrowns",
+      "name": "Moonspawn Oozecrown"
+    },
+    {
+      "endpoint": "moonstoneexcavator",
+      "plural_name": "Moonstone Excavators",
+      "name": "Moonstone Excavator"
+    },
+    {
+      "endpoint": "moonstoneoverseer",
+      "plural_name": "Moonstone Overseers",
+      "name": "Moonstone Overseer"
     },
     {
       "endpoint": "mouldphantom",
@@ -8654,6 +8714,36 @@
       "name": "Rabid Wolf"
     },
     {
+      "endpoint": "radiantacolyte",
+      "plural_name": "Radiant Acolytes",
+      "name": "Radiant Acolyte"
+    },
+    {
+      "endpoint": "radiantinquisitor",
+      "plural_name": "Radiant Inquisitors",
+      "name": "Radiant Inquisitor"
+    },
+    {
+      "endpoint": "radiantparagon",
+      "plural_name": "Radiant Paragons",
+      "name": "Radiant Paragon"
+    },
+    {
+      "endpoint": "radianttemplar",
+      "plural_name": "Radiant Templars",
+      "name": "Radiant Templar"
+    },
+    {
+      "endpoint": "radiantwarden",
+      "plural_name": "Radiant Wardens",
+      "name": "Radiant Warden"
+    },
+    {
+      "endpoint": "radiantzealot",
+      "plural_name": "Radiant Zealots",
+      "name": "Radiant Zealot"
+    },
+    {
       "endpoint": "ragingbrainsquid",
       "plural_name": "Rage Squids",
       "name": "Rage Squid"
@@ -8882,6 +8972,11 @@
       "endpoint": "silverrabbit",
       "plural_name": "Silver Rabbits",
       "name": "Silver Rabbit"
+    },
+    {
+      "endpoint": "silverfrostsentinel",
+      "plural_name": "Silverfrost Sentinels",
+      "name": "Silverfrost Sentinel"
     },
     {
       "endpoint": "sineaterinferniarch",
@@ -9182,6 +9277,11 @@
       "endpoint": "truedawnfire",
       "plural_name": "True Dawnfire Asuras",
       "name": "True Dawnfire "
+    },
+    {
+      "endpoint": "feverbloomasura",
+      "plural_name": "True Feverbloom Asuras",
+      "name": "True Feverbloom Asuras"
     },
     {
       "endpoint": "truefrostflower",
@@ -9512,6 +9612,11 @@
       "endpoint": "wiltingleafgolem",
       "plural_name": "Wilting Leaf Golems",
       "name": "Wilting Leaf Golem"
+    },
+    {
+      "endpoint": "wingedjaracal",
+      "plural_name": "Winged Jaracals",
+      "name": "Winged Jaracal"
     },
     {
       "endpoint": "winterwolf",
