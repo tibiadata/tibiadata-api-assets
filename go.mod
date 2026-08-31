@@ -3,12 +3,12 @@ module github.com/tibiadata/tibiadata-api-assets
 go 1.26.0
 
 require (
-	github.com/PuerkitoBio/goquery v1.12.0
+	github.com/PuerkitoBio/goquery v1.13.0
 	github.com/go-resty/resty/v2 v2.17.2
 	golang.org/x/text v0.41.0
 )
 
 require (
-	github.com/andybalholm/cascadia v1.3.3 // indirect
-	golang.org/x/net v0.55.0 // indirect
+	github.com/andybalholm/cascadia v1.3.4 // indirect
+	golang.org/x/net v0.58.0 // indirect
 )
