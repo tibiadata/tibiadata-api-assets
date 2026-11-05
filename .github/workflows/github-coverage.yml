@@ -37,6 +37,13 @@ jobs:
         run: |
           go test ./... -coverprofile=coverage.out -covermode=atomic
 
+      - name: Uploading coverage to Codecov
+        uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5 # v7.1.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: tibiadata/tibiadata-api-assets
+          files: coverage.out
+
       - name: Convert coverage report to Cobertura format
         shell: bash
         run: |
