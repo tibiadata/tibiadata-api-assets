@@ -8,6 +8,7 @@ on:
       - "src/**"
       - "go.mod"
       - "go.sum"
+      - "tools/**"
   pull_request:
     branches:
       - main
@@ -15,6 +16,7 @@ on:
       - "src/**"
       - "go.mod"
       - "go.sum"
+      - "tools/**"
   workflow_dispatch:
 
 permissions:
@@ -47,7 +49,7 @@ jobs:
       - name: Convert coverage report to Cobertura format
         shell: bash
         run: |
-          go run github.com/boumenot/gocover-cobertura@latest < coverage.out > coverage.xml
+          go tool -modfile=tools/go.mod gocover-cobertura < coverage.out > coverage.xml
 
       - name: Upload coverage artifact
         if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository

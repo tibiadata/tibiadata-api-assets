@@ -23,3 +23,13 @@ updates:
     labels:
       - dependencies
       - go
+
+  - package-ecosystem: gomod
+    directory: /tools
+    schedule:
+      interval: daily
+    commit-message:
+      prefix: "deps(go): "
+    labels:
+      - dependencies
+      - go
