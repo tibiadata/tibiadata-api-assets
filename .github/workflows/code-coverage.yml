@@ -2,25 +2,17 @@ name: code-coverage
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "go.mod"
-      - "go.sum"
-      - "tools/**"
+    branches: [main]
   pull_request:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "go.mod"
-      - "go.sum"
-      - "tools/**"
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
