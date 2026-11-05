@@ -25,12 +25,12 @@ const (
 
 func init() {
 	flag.BoolVar(&sleepFlag, "sleep", false, "Set to sleep between requests")
-
-	// Parse the flags
-	flag.Parse()
 }
 
 func main() {
+	// Parse the flags (done here, instead of in init(), so that `go test` flags keep working)
+	flag.Parse()
+
 	// logging start of TibiaData
 	log.Printf("[info] TibiaData assets generator starting..")
 
