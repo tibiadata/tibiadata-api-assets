@@ -15,7 +15,9 @@ updates:
           - github/codeql-action*
 
   - package-ecosystem: gomod
-    directory: /
+    directories:
+      - /
+      - /tools
     schedule:
       interval: daily
     commit-message:

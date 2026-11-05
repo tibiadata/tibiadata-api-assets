@@ -20,3 +20,6 @@ docs/data.min.json
 docs/sha256sum.txt
 docs/sha512sum.txt
 output.json
+
+# Coverage report in Cobertura XML format
+coverage.xml

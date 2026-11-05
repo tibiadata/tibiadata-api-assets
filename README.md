@@ -1,6 +1,8 @@
 # TibiaData API assets
 
 [![assets-generator](https://github.com/tibiadata/tibiadata-api-assets/actions/workflows/generate.yml/badge.svg)](https://github.com/tibiadata/tibiadata-api-assets/actions/workflows/generate.yml)
+[![code-coverage](https://codecov.io/gh/tibiadata/tibiadata-api-assets/graph/badge.svg?token=ZEWYWLUZ9Y)](https://codecov.io/gh/tibiadata/tibiadata-api-assets)
+[![GitHub go.mod version](https://img.shields.io/github/go-mod/go-version/tibiadata/tibiadata-api-assets?logo=go)](https://github.com/tibiadata/tibiadata-api-assets/blob/main/go.mod)
 [![GitHub license](https://img.shields.io/github/license/tibiadata/tibiadata-api-assets)](https://github.com/tibiadata/tibiadata-api-assets/blob/main/LICENSE)
 
 JSON assets that are almost static for the TibiaData API.
